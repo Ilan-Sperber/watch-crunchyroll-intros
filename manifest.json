@@ -6,7 +6,7 @@
   "version": "1.0.0",
 
   "content_scripts": [{
-    "matches": ["https://static.crunchyroll.com/vilos-v2/web/vilos/player.html", "https://beta.crunchyroll.com/watch/*"],
+    "matches": ["https://static.crunchyroll.com/vilos-v2/web/vilos/player.html"],
     "css": ["main.css"],
     "all_frames": true
   }],
